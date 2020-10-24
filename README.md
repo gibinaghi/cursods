@@ -2,18 +2,14 @@
 Ejercicios prácticos del curso "Python en Ciencia de Datos" de Chicas Programando
 
 Ejercicio 5:
-Crear un programa que pregunte el nombre del usuario y después de que el usuario lo
-introduzca muestre por pantalla <NOMBRE> tiene <n> letras.
+Crear un programa que pregunte el nombre del usuario y después de que el usuario lo introduzca muestre por pantalla <NOMBRE> tiene <n> letras.
 
 Ejercicio 6:
-Crear un programa que realice la siguiente operación aritmética [(3+2)/2*5]2. Mostrar el
-resultado por pantalla.
+Crear un programa que realice la siguiente operación aritmética [(3+2)/2*5]2. Mostrar el resultado por pantalla.
 
 Ejercicio 7:
-Crear un programa que pida al usuario dos números enteros y muestre por pantalla la
-<n> entre <m> da un cociente <c> y un resto <r> donde <n> y <m> son los números
-introducidos por el usuario, y <c> y <r> son el cociente y el resto de la división entera
-respectivamente.
+Crear un programa que pida al usuario dos números enteros y muestre por pantalla la <n> entre <m> da un cociente <c> y un resto <r> donde <n> y <m> son los números
+introducidos por el usuario, y <c> y <r> son el cociente y el resto de la división entera respectivamente.
 
 Ejercicio 9:
 Una juguetería tiene mucho éxito en dos de sus productos: payasos y muñecas. Suele
