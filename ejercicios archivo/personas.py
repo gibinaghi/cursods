@@ -1,20 +1,10 @@
-# creo lo que va a ir en el archivo de texto
-data = ''' 
-1;Carlos;Pérez;05/01/1989
-2;Manuel;Heredia;26/12/1973
-3;Rosa;Campos;12/06/1961
-4;David;García;25/07/2006'''
-
-with open('personas.txt', 'w+') as f:  # crea un archivo de txt con el texto de data
-    f.write(data)
-    f.seek(0)  # vuelve el cursor al principio
+with open(r'D:\python\PycharmProjects\cursods\ejercicios archivo\personas.txt', 'r', encoding='utf-8') as f:  # lee un archivo de txt con el texto de data
     lineas = f.readlines()   # creo una lista
-    print(lineas)
-    print(f.tell())  # tell devuelve la posicion del cursor
     f.close()
 
 # creo el diccionario
 personas = []  # creo el diccionario vacio
+campos = ()
 for linea in lineas:
     # Borro los saltos de línea y separamos
     campos = linea.replace("\n", "").split(";")  # split separa con los ;
@@ -23,7 +13,8 @@ for linea in lineas:
                "apellido": campos[2],
                "nacimiento": campos[3]
                }
-    personas.append(persona)
+    personas.append(persona)  # agrega elementos a la lista
+
 
 for p in personas:
     print(f'id: {p["id"]}')
